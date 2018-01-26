@@ -28,3 +28,12 @@
 #### 六、从远程库克隆
 - 要克隆一个仓库，首先必须知道仓库的地址，然后使用git clone命令克隆。
 - Git支持多种协议，包括https，但通过ssh支持的原生git协议速度最快。
+
+#### 七、创建与合并分支
+- Git鼓励大量使用分支：
+- 查看分支：git branch
+- 创建分支：git branch <name>
+- 切换分支：git checkout <name>
+- 创建+切换分支：git checkout -b <name>
+- 合并某分支到当前分支：git merge <name>
+- 删除分支：git branch -d <name>
